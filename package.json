@@ -2,7 +2,7 @@
   "name": "port",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "http://.",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -73,5 +73,10 @@
       "dist",
       "src/framework/processing/py_worker.js"
     ]
-  }
+  },
+  "description": "<p align=\"center\">   <a href=\"https://github.com/d3i-infra/feldspar\">     <img width=\"40%\" height=\"40%\" src=\"./public/port_logo.svg\">   </a> </p>",
+  "main": "postcss.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

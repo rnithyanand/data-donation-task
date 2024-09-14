@@ -1,0 +1,216 @@
+{
+  "Activity": {
+    "Favorite Effects": {
+      "FavoriteEffectsList": null
+    },
+    "Favorite Hashtags": {
+      "FavoriteHashtagList": null
+    },
+    "Favorite Sounds": {
+      "FavoriteSoundList": null
+    },
+    "Favorite Videos": {
+      "App": 1,
+      "FavoriteVideoList": null
+    },
+    "Follower List": {
+      "App": 1,
+      "IsFastLane": false,
+      "FansList": null
+    },
+    "Following List": {
+      "App": 1,
+      "IsFastLane": false,
+      "Following": null
+    },
+    "Hashtag": {
+      "HashtagList": null
+    },
+    "Like List": {
+      "App": 1,
+      "ItemFavoriteList": null
+    },
+    "Login History": {
+      "LoginHistoryList": null
+    },
+    "Purchase History": {
+      "SendGifts": {
+        "SendGifts": null
+      },
+      "BuyGifts": {
+        "BuyGifts": null
+      }
+    },
+    "Search History": {
+      "SearchList": [
+        {
+          "Date": "2024-09-12 20:03:04",
+          "SearchTerm": "debate"
+        }
+      ]
+    },
+    "Share History": {
+      "ShareHistoryList": null
+    },
+    "Status": {
+      "Status List": null
+    },
+    "Video Browsing History": {
+      "VideoList": null
+    }
+  },
+  "Ads and data": {
+    "Ad Interests": {
+      "AdInterestCategories": ""
+    },
+    "Instant Form Ads Responses": {
+      "ResponsesList": null
+    },
+    "Off TikTok Activity": {
+      "OffTikTokActivityDataList": null
+    }
+  },
+  "App Settings": {
+    "Block": {
+      "App": 1,
+      "BlockList": null
+    },
+    "Settings": {
+      "App": 1,
+      "SettingsMap": {
+        "Allow DownLoad": "Enabled",
+        "Allow Others to Find Me": "Disabled",
+        "App Language": "",
+        "Content Preferences": {
+          "Keyword filters for videos in Following feed": null,
+          "Keyword filters for videos in For You feed": null,
+          "Video Languages Preferences": null
+        },
+        "Family Content Preferences": {},
+        "Filter Comments": "Enabled",
+        "Interests": "",
+        "Private Account": "Disabled",
+        "Push Notification": {
+          "Desktop notification": "Default",
+          "New Comments on My Video": "Default",
+          "New Fans": "Default",
+          "New Likes on My Video": "Default"
+        },
+        "Web Language": "N/A",
+        "Who Can Duet With Me": "Everyone",
+        "Who Can Post Comments": "Everyone",
+        "Who Can Send Me Message": "Friends",
+        "Who Can Stitch with your videos": "Everyone",
+        "Who Can View Videos I Liked": "Myself"
+      }
+    }
+  },
+  "Comment": {
+    "Comments": {
+      "App": 1,
+      "CommentsList": null
+    }
+  },
+  "Direct Messages": {
+    "Chat History": {
+      "ChatHistory": {}
+    }
+  },
+  "Income Plus Wallet Transactions": {
+    "Income Plus Wallet Transaction": {
+      "TransactionsList": null
+    }
+  },
+  "Poi Review": {
+    "POI Review": {
+      "ReviewsList": null
+    }
+  },
+  "Profile": {
+    "AIMoji": {
+      "CreateDate": "",
+      "AIMojiList": null
+    },
+    "Auto Fill": {
+      "PhoneNumber": "N/A",
+      "Email": "N/A",
+      "FirstName": "N/A",
+      "LastName": "N/A",
+      "Address": "N/A",
+      "ZipCode": "N/A",
+      "Unit": "N/A",
+      "City": "N/A",
+      "State": "N/A",
+      "Country": "N/A"
+    },
+    "Profile Information": {
+      "App": 1,
+      "ProfileMap": {
+        "PlatformInfo": [
+          {
+            "Description": "",
+            "Name": "Rishab N",
+            "Platform": "Google",
+            "Profile Photo": ""
+          }
+        ],
+        "bioDescription": "",
+        "birthDate": "02-Jan-1981",
+        "emailAddress": "None",
+        "likesReceived": "None",
+        "profilePhoto": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/de9a5801d4249d8244822199377777a9~c5_1080x1080.webp?lk3s=a5d48078&nonce=65912&refresh_token=b84386c683304f0d480ae446f36019fc&x-expires=1726344000&x-signature=D434JP9%2FhG8xwv9hPrT%2FrwYhPZQ%3D&shp=a5d48078&shcp=5adb2174",
+        "profileVideo": "None",
+        "telephoneNumber": "None",
+        "userName": "datadonation"
+      }
+    }
+  },
+  "Tiktok Live": {
+    "Go Live History": {
+      "GoLiveList": null
+    },
+    "Go Live Settings": {},
+    "Watch Live History": {
+      "WatchLiveMap": {}
+    },
+    "Watch Live Settings": {
+      "WatchLiveSettingsMap": {
+        "app": "N/A",
+        "web": "N/A"
+      },
+      "MostRecentModificationTimeInApp": "0",
+      "MostRecentModificationTimeInWeb": "0"
+    }
+  },
+  "Tiktok Shopping": {
+    "Communication History": {
+      "CommunicationHistories": null
+    },
+    "Current Payment Information": {},
+    "Customer Support History": {
+      "CustomerSupportHistories": null
+    },
+    "Order Dispute History": {
+      "OrderDisputeHistories": null
+    },
+    "Order History": {
+      "OrderHistories": null
+    },
+    "Product Browsing History": {
+      "ProductBrowsingHistories": null
+    },
+    "Product Review History": {
+      "ProductReviewHistories": null
+    },
+    "Return and Refund History": {
+      "ReturnAndRefundHistories": null
+    },
+    "Saved Address Information": {},
+    "Shopping Cart List": {},
+    "Vouchers": {}
+  },
+  "Video": {
+    "Videos": {}
+  }
+}
+

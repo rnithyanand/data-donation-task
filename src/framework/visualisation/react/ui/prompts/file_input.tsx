@@ -40,25 +40,34 @@ export const FileInput = (props: Props): JSX.Element => {
 
   return (
     <>
-      <div id='select-panel'>
+      <div id='select-panel' className='max-w-6xl'>
         <div className='flex-wrap text-bodylarge font-body text-grey1 text-left'>
-          {description}
-        </div>
-        <div className='mt-8' />
-        <div className='p-6 border-grey4 border-2 rounded'>
-          <input ref={input} id='input' type='file' className='hidden' accept={extensions} onChange={handleSelect} />
-          <div className='flex flex-row gap-4 items-center'>
-            <BodyLarge text={selectedFile?.name ?? placeholder} margin='' color={selectedFile === undefined ? 'text-grey2' : 'textgrey1'} />
-            <div className='flex-grow' />
-            <PrimaryButton onClick={handleClick} label={selectButton} color='bg-tertiary text-grey1' />
+          <div className='flex-wrap text-bodylarge font-body text-grey1 text-left whitespace-pre-line'>
+            {description.split('\n').map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br/>
+                </React.Fragment>
+            ))}
           </div>
         </div>
-        <div className='mt-4' />
+        <div className='mt-8'/>
+        <div className='p-6 border-grey4 border-2 rounded'>
+          <input ref={input} id='input' type='file' className='hidden' accept={extensions} onChange={handleSelect}/>
+          <div className='flex flex-row gap-4 items-center'>
+            <BodyLarge text={selectedFile?.name ?? placeholder} margin=''
+                       color={selectedFile === undefined ? 'text-grey2' : 'textgrey1'}/>
+            <div className='flex-grow'/>
+            <PrimaryButton onClick={handleClick} label={selectButton} color='bg-tertiary text-grey1'/>
+          </div>
+        </div>
+        <div className='mt-4'/>
         <div className={`${selectedFile === undefined ? 'opacity-30' : 'opacity-100'}`}>
-          <BodySmall text={note} margin='' />
-          <div className='mt-8' />
+          <BodySmall text={note} margin=''/>
+          <div className='mt-8'/>
           <div className='flex flex-row gap-4'>
-            <PrimaryButton label={continueButton} onClick={handleConfirm} enabled={selectedFile !== undefined} spinning={waiting} />
+            <PrimaryButton label={continueButton} onClick={handleConfirm} enabled={selectedFile !== undefined}
+                           spinning={waiting}/>
           </div>
         </div>
       </div>
